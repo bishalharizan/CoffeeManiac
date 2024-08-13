@@ -1,0 +1,130 @@
+/* Navigation Bar */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar::before {
+    height: 200px;
+}
+
+#navbar #logo img {
+    height: 100px;
+}
+
+#navbar ul {
+    margin-left: 0;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 4px 7px;
+}
+
+#navbar #search-box {
+    margin: 5px 32px;
+}
+
+#navbar #search-box input {
+    font-size: 0.7rem;
+    padding: 7px 24px;
+    border-radius: 25px;
+}
+
+/* Image Slider */
+
+#slider-secondary .image-holder {
+    height: 300px;
+}
+
+/* Coffee Types */
+
+#coffee-types {
+    margin-top: -75px;
+}
+
+#coffee-types .container {
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+#coffee-types #container2, #coffee-types #container4, #coffee-types #container6 {
+    flex-direction: column-reverse;
+}
+
+#coffee-types .container>img {
+    height: 230px;
+    margin: 18px 10px;
+}
+
+.coffee-type-text .coffee-details {
+    font-size: 1rem;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Review Section */
+
+.review-container {
+    padding: 36px 0px;
+}
+
+.review-container img {
+    height: 120px;
+}
+
+.review-container .review-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+.review-item {
+    flex-direction: column;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+    border-left: 10px solid gray;
+    border-bottom: 10px solid gray;
+    margin: 0px 10px;
+}
+
+/* Contact Section */
+
+.form-group textarea {
+    width: 300px;
+}
+
+#submit-button input {
+    font-size: 1rem;
+}
+
+/* Footer Section */
+
+footer {
+    font-size: 0.7rem;
+}
+
+#footer-sections {
+    width: 100%;
+}
+
+#footer-sections a, #footer-sections {
+    font-size: 0.7rem;
+}
+
+#footer-text {
+    top: 70px;
+}
+
+/* Utility Classes */
+.heading-primary {
+    font-size: 2.5rem;
+    padding: 24px;
+}
+
+.heading-secondary {
+    font-size: 1.5rem;
+}
